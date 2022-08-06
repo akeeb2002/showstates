@@ -14,7 +14,7 @@ def read_password():
 
 def connect_to_mars():
     password = read_password()
-    conn = pymysql.connect(host="mars.cs.qc.cuny.edu", port=3306, user="khak0961", passwd=password, database="khak0961")
+    conn = pymysql.connect(host="mars.cs.qc.cuny.edu", port=3306, user="", passwd=password, database="")
     # cursor = conn.cursor()
     # cursor.execute("SHOW DATABASES")
     # for row in cursor:
